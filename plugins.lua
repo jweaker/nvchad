@@ -77,6 +77,10 @@ local plugins = {
       }
     end,
   },
+  {
+    "hrsh7th/nvim-cmp",
+    opts = overrides.cmp,
+  },
 
   -- To make a plugin not be loaded
   -- {
