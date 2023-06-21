@@ -6,6 +6,12 @@ M.general = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
   },
 }
+M.telescope = {
+  plugin = true,
+  n = {
+    ["<C-p>"] = { "<cmd> Telescope find_files <CR>", "Find files" },
+  },
+}
 
 -- more keybinds!
 

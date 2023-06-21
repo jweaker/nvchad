@@ -7,3 +7,4 @@
 -- })
 --j
 vim.o.wrap = false
+vim.wo.relativenumber = true

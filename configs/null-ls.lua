@@ -13,6 +13,7 @@ local sources = {
     filetypes = { "html", "markdown", "css", "javascript", "javascriptreact", "typescript", "typesriptreact" },
   }, -- so prettier works only on these filetypes
   b.diagnostics.eslint_d.with { filetypes = { "javascript", "javascriptreact", "typescript", "typesriptreact" } },
+  b.diagnostics.codespell,
 
   -- Lua
   b.formatting.stylua,
